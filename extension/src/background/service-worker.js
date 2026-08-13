@@ -1,6 +1,6 @@
 const AMAZON_PATTERNS = ['amazon.in', 'amazon.com'];
 const FLIPKART_PATTERNS = ['flipkart.com'];
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://parakh-5ql2.onrender.com/';
 const ANALYZE_ENDPOINT = `${BACKEND_URL}/api/v1/analyze`;
 
 chrome.runtime.onInstalled.addListener(async () => {
