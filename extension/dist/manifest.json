@@ -2,12 +2,20 @@
   "manifest_version": 3,
   "name": "Parakh (परख) — Review Intelligence",
   "version": "1.0.0",
-  "description": "AI-powered review authenticity analyzer for Amazon and Flipkart. Detects fake reviews and surfaces real pros, cons, and dealbreaker alerts.",
+  "description": "AI-powered review authenticity analyzer for Amazon, Flipkart, Myntra, Meesho, Snapdeal, Nykaa, Ajio, Shopsy & more. Detects fake reviews and surfaces real pros, cons, and dealbreaker alerts.",
   "permissions": ["activeTab", "tabs", "scripting", "storage", "sidePanel"],
   "host_permissions": [
     "*://*.amazon.in/*",
     "*://*.amazon.com/*",
-    "*://*.flipkart.com/*"
+    "*://*.flipkart.com/*",
+    "*://*.myntra.com/*",
+    "*://*.shopsy.in/*",
+    "*://*.meesho.com/*",
+    "*://*.snapdeal.com/*",
+    "*://*.nykaa.com/*",
+    "*://*.nykaafashion.com/*",
+    "*://*.ajio.com/*",
+    "*://*.tatacliq.com/*"
   ],
   "background": {
     "service_worker": "src/background/service-worker.js"
