@@ -7,9 +7,9 @@ Supported on 9 platforms including **Amazon, Flipkart, Myntra, Nykaa, and Meesho
 ## 📸 See it in Action
 
 <!-- Replace the filenames below with your actual screenshot filenames -->
-![Amazon Analysis Demo](assets/demo1.png)
+![Analysis Demo](assets/demo1.png)
 
-![Flipkart Analysis Demo](assets/demo2.png)
+![Analysis Demo](assets/demo2.png)
 
 ## 🚀 Features
 * **Authenticity Scoring:** Uses NLP to detect incentivized and fake reviews.
